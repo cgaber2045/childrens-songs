@@ -10,26 +10,42 @@
 
 public class OldMacDonald2 
 {
-    
+     /**
+     * sings E I E I O part of song.
+     */
     public static void eieio() 
     { 
         System.out.println("Old MacDonald had a farm, E I E I O.");
     }
 
-
+     /**
+     * sings about the animal of the verse
+     *
+     * @param animal Animal to sing about in the verse
+     */
+    
     public static void hadA(String animal) 
     { 
         System.out.println("And on that farm he had a " + animal + ", E I E I O.");
     }
 
-
+     /**
+     * sings the sound that the animal makes in the verse
+     *
+     * @param sound The sound of the animal in the verse
+     */
     public static void withA(String sound) 
     { 
         System.out.println("With a " + sound + " " + sound +  " here and a " + sound + " " + sound +  " there.");
         System.out.println("Here a " + sound + ", there a " + sound + ", everywhere a " + sound + ", " + sound + ".");  
     }
 
-    
+    /**
+     * Sings a verse of Old MacDonald
+     *
+     * @param animal Animal to sing about in the verse
+     * @param sound The sound of the animal in the verse
+     */
     public static void singIt(String animal, String sound) 
     {
         eieio();
@@ -44,10 +60,12 @@ public class OldMacDonald2
     {
         System.out.println("Old MacDonald Had A Farm\n"); // Give our        song a title
 
-        singIt("duck", "quack");
-        singIt("cow", "moo");
-        singIt("horse", "neigh");
-        singIt("platypus","gdggdggddgdg");
+        singIt("duck", "\"quack\"");
+        singIt("cow", "\"moo\"");
+        singIt("horse", "\"neigh\"");
+        singIt("platypus","\"gdggdggddgdg\"");
+        singIt("zebra","\"JBFKAJBFK\"");
+        singIt("pig","\"oink\"");
         
         // now see how easy it is to add some more animals  
         
