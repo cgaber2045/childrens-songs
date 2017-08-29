@@ -36,7 +36,7 @@ public class AntsGoMarching
      */
     public static void littleAnt(String action)
     {   
-            System.out.println("The little on stops to " + action + ",");
+            System.out.println("The little one stops to " + action + ",");
     }
     
     /**
@@ -50,7 +50,7 @@ public class AntsGoMarching
     }
 
     /**
-     * Sings a verse of Ants Go Marching.
+     * Sings a verse of Ants Go Marching. Calls each respective function.
      * 
      * @param number Number (as a word) for how the ants march
      * @param action What the little one stops to do
@@ -67,7 +67,7 @@ public class AntsGoMarching
     }
 
     /**
-     * Calls the singIt() for each verse.
+     * Calls the singIt() function for each verse.
      */
     public static void main(String[] args) 
     {

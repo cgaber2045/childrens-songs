@@ -11,7 +11,7 @@
 public class OldMacDonald2 
 {
      /**
-     * sings E I E I O part of song.
+     * Sings E I E I O part of song.
      */
     public static void eieio() 
     { 
@@ -19,7 +19,7 @@ public class OldMacDonald2
     }
 
      /**
-     * sings about the animal of the verse
+     * Sings about the animal of the verse
      *
      * @param animal Animal to sing about in the verse
      */
@@ -55,6 +55,9 @@ public class OldMacDonald2
         System.out.println();
     }
 
+     /**
+     * Sings the song of Old MacDonald
+     */
     
     public static void main(String[] args) 
     {
