@@ -2,8 +2,8 @@
  * This program sings the song "Ants Go Marching."
  * lyrics: http://www.kidspot.com.au/Baby-Baby-play-and-toys-The-ants-go-marching-lyrics+5210+425+article.htm
  *
- * @author  you
- * @version today
+ * @author  Chris Gaber
+ * @version 8/29/17 (v2)
  */
 
 public class AntsGoMarching 

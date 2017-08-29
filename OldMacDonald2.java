@@ -3,8 +3,8 @@
  *
  * Version 2 - singIt() method eliminates duplicate code and make it easier to add more animals.
  * 
- * @author Jon Cooper
- * @version August 18, 2016 (v0)
+ * @author Chris Gaber
+ * @version August 29, 2017 (v3)
  */
 
 
